@@ -1,0 +1,14 @@
+{
+  "name": "pinkerton",
+  "version": "1.0.0",
+  "scripts": {
+    "case1": "node pinkerton.js ./files/sample-0-origin.html ./files/sample-1-evil-gemini.html",
+    "case2": "node pinkerton.js ./files/sample-0-origin.html ./files/sample-2-container-and-clone.html",
+    "case3": "node pinkerton.js ./files/sample-0-origin.html ./files/sample-3-the-escape.html",
+    "case4": "node pinkerton.js ./files/sample-0-origin.html ./files/sample-4-the-mash.html"
+  },
+  "author": "Alexander Kraev <akraev777@gmail.com>",
+  "dependencies": {
+    "jsdom": "^11.6.2"
+  }
+}
